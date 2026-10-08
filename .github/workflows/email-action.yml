@@ -1,0 +1,17 @@
+
+name: IITM Email Verification
+
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 23f1002489@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
+
+      - name: Verify workflow
+        run: echo "GitHub Actions executed successfully"
